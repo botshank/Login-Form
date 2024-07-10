@@ -125,6 +125,26 @@ button:hover {
     color: #fff;
     border-color: #fff;
 }
+@media (max-width:600px) {
+    body{
+        width: 90%;
+    }
+    body::before{
+        height: 95%;
+        width: 90%;
+        background: url(./Acer_Wallpaper_03_3840x2400.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    .login-wrapper {
+        width: 325px;
+        padding: 25px;
+    }
+    form h2{
+        margin-bottom: 20px;
+    }
+
+}
 
 .account-options {
     text-align: center;
